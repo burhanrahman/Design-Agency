@@ -1,0 +1,235 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  margin: 0px;
+}
+
+p {
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0px;
+}
+
+ul {
+  margin: 0px;
+}
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+/* header start */
+.header {
+  background: #d7f5dc;
+}
+.header .navbar .navbar-nav .nav-item .nav-link {
+  font-size: 18px;
+  font-weight: 500;
+  color: black;
+  margin-right: 40px;
+}
+.header .navbar .navbar-nav .nav-item .nav-link:hover,
+.header .navbar .navbar-nav .nav-item .nav-link:focus {
+  color: #20b15a;
+}
+.header .navbar .navbar-nav .nav-item .login-btn {
+  border: 1.5px solid #20b15a;
+  padding: 5px 20px;
+  transition: 1s;
+}
+.header .navbar .navbar-nav .nav-item .login-btn:hover,
+.header .navbar .navbar-nav .nav-item .login-btn:focus {
+  background: #20b15a;
+  color: white;
+}
+.header .navbar .navbar-nav .nav-item .reg-btn {
+  background: #20b15a;
+  color: white;
+  padding: 5px 15px;
+  transition: 1s;
+}
+.header .navbar .navbar-nav .nav-item .reg-btn:hover,
+.header .navbar .navbar-nav .nav-item .reg-btn:focus {
+  background: transparent;
+  border: 1.5px solid #20b15a;
+  color: black;
+}
+.navbar-toggler {
+  color: #20b15a;
+  border: 1.5px solid #20b15a;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+  border: 2.5px solid #20b15a;
+}
+
+.hero h1 {
+  font-size: 36px;
+  line-height: 46px;
+  font-weight: 700;
+  padding-top: 175px;
+}
+.hero p {
+  font-size: 18px;
+  line-height: 28px;
+  padding: 10px 0px;
+}
+.hero .custom-btn {
+  background: #20b15a;
+  color: white;
+  padding: 10px 20px;
+  transition: 1s;
+}
+.hero .custom-btn:hover,
+.hero .custom-btn:focus {
+  background: transparent;
+  border: 1.5px solid #20b15a;
+  color: black;
+}
+
+/* partner start */
+.partner {
+  background: #f8fff9;
+}
+
+.title p {
+  color: #20b15a;
+  font-weight: 500;
+}
+.title h3 {
+  font-size: 26px;
+  line-height: 35px;
+  text-transform: capitalize;
+  padding: 10px 0px;
+  font-weight: 600;
+}
+
+/* we do */
+.we-do img {
+  background: #d7f5dc;
+  padding: 10px;
+  border-radius: 10px;
+}
+.we-do h4 {
+  padding: 10px 0px;
+  font-weight: 500;
+}
+.we-do p {
+  font-size: 16px;
+  line-height: 26px;
+}
+.we-do .btn-link {
+  text-decoration: none;
+  color: #20b15a;
+  padding: 10px 0px;
+}
+/* project */
+.project {
+  background: #fafffb;
+}
+.project p {
+  padding: 10px 0px;
+}
+.project h4 {
+  color: #20b15a;
+  font-weight: 600;
+}
+/* portfolio */
+.portfolio h3 {
+  padding: 10px 0px;
+}
+/* testimonial */
+.testimonial .client {
+  box-shadow: 1px 2px 4px 1px #00000040;
+  padding: 20px;
+  border-radius: 10px;
+}
+.testimonial .client h3 {
+  padding-top: 10px;
+}
+
+/* subscriber */
+.subscribe .drop {
+  color: #8b8b8b;
+}
+.subscribe .email-box {
+  position: relative;
+}
+.subscribe .sub-btn {
+  position: absolute;
+  background: #f55f1d;
+  color: white;
+  padding: 8px 15px;
+  right: 1%;
+  top: 7.5px;
+  transition: 1s;
+}
+.subscribe .sub-btn:hover,
+.subscribe .sub-btn:focus {
+  background: transparent;
+  border: 1.5px solid #f55f1d;
+  color: black;
+}
+.subscribe .form-control {
+  box-shadow: none;
+  padding: 15px;
+  border: 1px solid black;
+}
+
+/* footer */
+.footer {
+  background: #d7f5dc;
+}
+.footer p {
+  padding: 10px 0px;
+}
+.footer ul {
+  padding: 0px;
+}
+.footer li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer li i {
+  background: #f55f1d;
+  color: white;
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  border-radius: 35px;
+}
+.footer li i:hover,
+.footer li i:focus {
+  background: #20b15a;
+}
+
+.footer .links li {
+  display: block;
+}
+.footer .links li a {
+  color: #322f29;
+}
+.footer .links li a:hover,
+.footer .links li a:focus {
+  color: #20b15a;
+}
+.copyright a {
+  color: #f55f1d;
+  font-weight: 700;
+}
